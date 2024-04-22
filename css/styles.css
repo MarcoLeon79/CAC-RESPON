@@ -287,6 +287,16 @@ footer img {
 }
 
 
+/* Media query para dispositivos con una anchura máxima de 768px (típicamente tablets y móviles) */
+@media only screen and (max-width: 768px) {
+    .navLinks {
+        flex-direction: column; /* Cambiar la dirección de los elementos a columnas */
+    }
+
+    .navLinks li {
+        margin-bottom: 10px; /* Añadir margen inferior para separar los elementos */
+    }
+}
 
 
 
