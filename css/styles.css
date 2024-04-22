@@ -6,7 +6,7 @@ body {
     background-image: url(/assets/img/set-colored-balloons-flying-ground-cappadocia-turkey.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%; /* Asegura que el body abarque toda la altura de la ventana gráfica */
+    height: 90%; /* Asegura que el body abarque toda la altura de la ventana gráfica */
 }
 
 /* Estilo para el logo */
@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    /* height: 100%; Asegura que el elemento ocupe toda la altura del contenedor */
+     height: 100%; /*Asegura que el elemento ocupe toda la altura del contenedor */
 }
 
 .navLinks li a {
@@ -177,6 +177,7 @@ footer img {
     height: 70vh !important; /* La altura ocupa el 50% de la altura de la ventana */
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
     border-radius: 7px; /* Agrega bordes redondeados */
+    margin: 0 auto; 
     padding: 5px; /* Agrega un espacio interior para el contenido */
 }
 
