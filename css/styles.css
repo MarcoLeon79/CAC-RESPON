@@ -28,11 +28,9 @@ body {
 /* Estilo para la barra de navegación principal */
 .navBar {
     background-color: #5778aa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    height: 40px; /* Ajusta la altura según tus necesidades */
+    
+   
+   
 }
 
 /* Estilo para los enlaces de navegación */
@@ -48,7 +46,7 @@ body {
 
 .navLinks li {
     margin-right: 20px;
-    display: flex;
+    
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
      height: 100%; /*Asegura que el elemento ocupe toda la altura del contenedor */
@@ -149,7 +147,7 @@ footer img {
     display: flex;
     flex-direction: column; /* Alinea los botones uno debajo del otro */
     align-items: flex-end; /* Alinea los botones al margen derecho */
-    margin-right: 20px !important; /* Aseguramos la prioridad del estilo */
+    /*margin-right: 20px !important;  Aseguramos la prioridad del estilo */
     margin-top: 3px;
 }
 
