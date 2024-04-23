@@ -11,8 +11,8 @@ body {
 
 /* Estilo para el logo */
 .logo {
-    width: 300px;
-    height: 120px;
+    width: 20rem;
+    height: 20rem;
    
 }
 
@@ -95,11 +95,7 @@ body {
     cursor: pointer;
 }
 
-li img {
-    width: 75px;
-    height: 75px;
-    margin-top: 5px;
-}
+
 
 /* Estilos para el footer */
 footer {
@@ -177,17 +173,16 @@ footer img {
     border-radius: 7px; /* Agrega bordes redondeados */
     margin: 0 auto; 
     padding: 5px; /* Agrega un espacio interior para el contenido */
+    transition: transform 2s ease;/* Ajustamos la transición para que sea suave */
 }
 
 /* Efecto de escala al pasar el ratón sobre las imágenes */
 .carousel-item img:hover {
-    transform: scale(1.03); /* Escala la imagen al 110% */
+    transform: scale(1.02); /* Escala la imagen al 110% */
 }
 
-/* Ajustamos la transición para que sea suave */
-.carousel-item img {
-    transition: transform 1.5s ease;
-}
+
+
 
 /* Desplaza la imagen siguiente hacia la derecha */
 .carousel-item-next img {
