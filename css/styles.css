@@ -155,7 +155,7 @@ footer img {
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 5px; /* Espacio entre los botones */
-    width: 150px; /* Ancho fijo para los botones */
+    width: 200px; /* Ancho fijo para los botones */
     text-align: center; /* Centra el texto dentro del botón */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
